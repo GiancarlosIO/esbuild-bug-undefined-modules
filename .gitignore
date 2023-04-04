@@ -1,0 +1,88 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+node_modules
+.pnp
+.pnp.js
+
+# testing
+/coverage
+/test-reports
+.jest-cache
+
+# next.js
+.next
+out
+.swc
+
+# production
+build
+dist/
+lib/
+cjs/
+cjs-tmp/
+dist-tmp/
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log
+
+# local env files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env
+
+
+# npm
+# .npmrc
+
+# cache files
+.eslintcache
+.vercel
+
+# Sentry
+.sentryclirc
+
+# Lighthouse CI
+.lighthouseci
+
+# testing
+test-reports
+
+# Turbo
+.turbo
+.cache
+
+# eslint
+.eslintcache
+
+
+# temporal ignored files
+tsconfig.tsbuildinfo
+tsconfig.production.tsbuildinfo
+tsconfig.lib.tsbuildinfo
+*.tsbuildinfo
+.idea
+
+# packages
+docs/
+
+# pnpm
+.pnpm-store
+
+# b2b-admin user settings
+apps/b2b-admin/.vscode/launch.json
+apps/b2b-admin/.vscode/settings.json
+
+# file system
+jest_0
+v8-compile-cache-0
+v8-compile-cache-*

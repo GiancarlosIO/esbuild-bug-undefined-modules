@@ -1,0 +1,13 @@
+{
+  "extends": "./base.json",
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    "declarationMap": true,
+    "emitDeclarationOnly": true,
+    "declaration": true,
+    "noEmit": false,
+    "sourceMap": true,
+    "jsx": "react-jsx",
+    "stripInternal": true
+  }
+}

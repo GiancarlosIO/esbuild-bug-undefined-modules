@@ -1,0 +1,20 @@
+{
+  "extends": "./lib.json",
+  "compilerOptions": {
+    "jsx": "preserve",
+    "incremental": true,
+    "outDir": "dist",
+    "rootDir": "./src",
+    "baseUrl": "./",
+    "plugins": [
+      { "transform": "@zerollup/ts-transform-paths", "afterDeclarations": true }
+    ],
+    "paths": {
+      "@/*": ["./src/*"],
+      "@apollo/client": ["node_modules/@apollo/client"],
+      "@apollo/client/testing": ["node_modules/@apollo/client/testing"]
+    }
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx"],
+  "exclude": ["src/__tests__", "dist", "cjs"]
+}
